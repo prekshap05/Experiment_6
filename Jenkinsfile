@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning project from GitHub...'
-                git branch: 'main', url: 'https://github.com/YourUsername/Jenkins_Web_App.git'
+                git branch: 'main', url: 'https://github.com/prekshap05/Jenkins_Web_App.git'
             }
         }
         stage('Build') {
